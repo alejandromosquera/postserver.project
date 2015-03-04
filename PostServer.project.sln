@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{20482267-046E-4C73-92EE-90FD661AB3EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Bussiness", "2. Bussiness", "{DA75FEF0-C431-4EFD-91E5-A605BDC1DC66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DataAccess", "3. DataAccess", "{8C479DA2-EEEB-45F4-AF56-B4038FA81AFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Utilities", "4. Utilities", "{50115EF1-2DA0-4992-BD3A-EC1B216D1FD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Design", "0. Design", "{93BABE00-D158-41C5-9EA7-30D45E060B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.WebApi", "PS.WebApi\PS.WebApi.csproj", "{CF943AE9-C4C1-4C46-8FBF-5128C667025C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF943AE9-C4C1-4C46-8FBF-5128C667025C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF943AE9-C4C1-4C46-8FBF-5128C667025C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF943AE9-C4C1-4C46-8FBF-5128C667025C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF943AE9-C4C1-4C46-8FBF-5128C667025C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF943AE9-C4C1-4C46-8FBF-5128C667025C} = {20482267-046E-4C73-92EE-90FD661AB3EC}
+	EndGlobalSection
+EndGlobal
