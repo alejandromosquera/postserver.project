@@ -56,6 +56,10 @@
       <Project>{85cdff41-8edd-4245-a904-00abec7ce46e}</Project>
       <Name>PS.Bussiness.Managers</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PS.Utilities\PS.Utilities.csproj">
+      <Project>{4202b093-058e-49a0-b4fc-2b87858601eb}</Project>
+      <Name>PS.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
