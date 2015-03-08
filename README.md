@@ -5,6 +5,9 @@ El proyecto postserver.project es una solución construida en VisualStudio.NET q
 <b>Ps.WebApi:</b> Soporta y ejecuta peticiones simultaneas desde diferentes clientes para el tratamiento de posts.
 <b>Ps.TestClient:</b> Crear y envia 1000 solictudes simultaneas con un peso de 2kb al WebAPI en menos de 1 segundo.
 
+<b>Arquitectura:</b>
+El proyecto esta desarrollado en 3 capas: Presentación, Negocio y datos.
+
 <b>Consideraciones:</b>
 <br />
 1. En el algoritmo de generación de cadenas se considera _ como punto aparte.<br />
