@@ -16,4 +16,4 @@ La base de datos esta en SQL Server, 2012. En el proyecto Ps.WebApi se encuentra
 1. Las pruebas de rendimiento en TestClient se hicieron utilizando la clase Stopwatch().
 2. Las pruebas de rendimiento del WebApi se hicieron utilizando el Performance Monitor de Windows, que da como resultado el procesamiento concurrente de mas 10000 solicitudes simultaneas en 1 segundo.
 3. Aunque el servidor soporte y procese multiples solicitudes en 1 segundo. Sql Server encola las peticione por lo que el proceso de escritura rápido pero tarda mas de 1 segundo.
-
+4. La cadena de conexión de la base de datos se debe especificar en el Web.Config del proyecto PS.WebApi
