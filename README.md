@@ -56,7 +56,8 @@ Este método asíncrono envia las peticiones al servidor basado en el patrón: F
 
 Este proyecto esta diseñado basícamente en 3 capas: Presentación, Negocio y Datos.
 
-<b>Consideraciones generales</br >
+<b>Consideraciones generales</b >
+</br >
 1. Para generar las cadena aleatorias se ha considerado el siguiente algoritmo
 
 ```
