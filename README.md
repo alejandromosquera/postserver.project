@@ -56,7 +56,7 @@ Este método asíncrono envia las peticiones al servidor basado en el patrón: F
 
 Este proyecto esta diseñado basícamente en 3 capas: Presentación, Negocio y Datos.
 
-<b>Consideraciones generales</b>
+<b>Consideraciones generales</br >
 1. Para generar las cadena aleatorias se ha considerado el siguiente algoritmo
 
 ```
@@ -75,7 +75,7 @@ private static string CreateNewPost(int size)
 
 Este código crea cadenas de texto aleatorio que contienen las letras del alfabeto en español (mayúsculas y minúsculas), dígitos y caracteres especiales como espacio, coma, punto y guión bajo (El guión bajo representa en el texto .\n (punto aparte)). No se usa \n directamente dado que el punto aparte es realmente un punto y despues un salto de linea. adicional a esto la compresión de datos a Json hace el salto de linea automáticamente. Sin embargo, el algoritmo de procesamiento es capaz de indentificar _ y .\n como punto aparte
 
-2. Uso de tecnología para escribir en disco.
+2. Uso de tecnología para escribir en disco. </br >
 
 Mientras se pensaba esta solución, se consideró 3 formas de escritura en disco: Archivos, Bases de datos relacionales y bases de datos no relacionales.
 
