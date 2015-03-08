@@ -11,3 +11,9 @@ El proyecto postserver.project es una solución construida en VisualStudio.NET q
  
 <b>Base de datos</b>
 La base de datos esta en SQL Server, 2012. En el proyecto Ps.WebApi se encuentra el script.
+
+<b>Rendimiento</b>
+1. Las pruebas de rendimiento en TestClient se hicieron utilizando la clase Stopwatch().
+2. Las pruebas de rendimiento del WebApi se hicieron utilizando el Performance Monitor de Windows, que da como resultado el procesamiento concurrente de mas 10000 solicitudes simultaneas en 1 segundo.
+3. Aunque el servidor soporte y procese multiples solicitudes en 1 segundo. Sql Server encola las peticione por lo que el proceso de escritura rápido pero tarda mas de 1 segundo.
+
