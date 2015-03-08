@@ -2,7 +2,7 @@
 
 El proyecto postserver.project es una solución construida en VisualStudio.NET que tiene dos principales salidas. PS.WebApi y Ps.TestClient. 
 
-<b>Ps.WebApi:</b> Aplicación de servidor que soporta y ejecuta peticiones simultaneas desde diferentes clientes para el tratamiento de posts.
+<b>Ps.WebApi:</b> Aplicación de servidor que soporta y ejecuta peticiones simultaneas desde diferentes clientes para el tratamiento de posts. Dirección por defecto: http://localhost:60001/ (Puerto único 60001)<br />
 <b>Ps.TestClient:</b> Crear y envia 1000 solictudes simultaneas con un peso de 2kb al WebAPI en menos de 1 segundo.
 
 <b>Arquitectura:</b>
