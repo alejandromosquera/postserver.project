@@ -6,7 +6,7 @@ El proyecto postserver.project es una solución construida en VisualStudio.NET q
 <b>Ps.TestClient:</b> Crear y envia 1000 solictudes simultaneas con un peso de 2kb al WebAPI en menos de 1 segundo.
 
 <b>Arquitectura:</b>
-El proyecto esta desarrollado en 3 capas: Presentación, Negocio y datos.
+El proyecto esta desarrollado en 3 capas: Presentación, Negocio y datos. Las funciones para el procesamiento de texto se encuentran en proyecto adicional, en una clase llamada StringExtensions que utiliza expresiones regulares para el conteo del texto
 
 <b>Consideraciones:</b>
 <br />
