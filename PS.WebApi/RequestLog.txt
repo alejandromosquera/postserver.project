@@ -55528,3 +55528,12 @@ url: http://localhost:34757/api/Posts/, time: 1ms
 url: http://localhost:34757/, time: 892ms
 url: http://localhost:34757/favicon.ico, time: 32ms
 url: http://localhost:34757/__browserLink/requestData/71eb7f511cec40278d3ea46970976c38?version=2, time: 12ms
+url: http://localhost:60001/, time: 1099ms
+url: http://localhost:60001/Content/Site.css, time: 93ms
+url: http://localhost:60001/Scripts/bootstrap.min.js, time: 59ms
+url: http://localhost:60001/Scripts/modernizr-2.6.2.js, time: 155ms
+url: http://localhost:60001/Scripts/jquery-1.10.2.min.js, time: 66ms
+url: http://localhost:60001/Content/bootstrap.min.css, time: 161ms
+url: http://localhost:60001/favicon.ico, time: 25ms
+url: http://localhost:60001/favicon.ico, time: 25ms
+url: http://localhost:60001/__browserLink/requestData/cc00aa33414b4ee696a44066980b3916?version=2, time: 14ms
