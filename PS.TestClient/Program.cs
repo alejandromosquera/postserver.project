@@ -42,7 +42,7 @@ namespace PS.TestClient
             {
                 using (var httpClient = new HttpClient())
                 {
-                    httpClient.BaseAddress = new Uri("http://localhost:34757/");
+                    httpClient.BaseAddress = new Uri("http://localhost:60001/");
                     httpClient.DefaultRequestHeaders.Accept.Clear();
                     httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
