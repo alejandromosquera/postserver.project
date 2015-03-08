@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PS.WebApi.Controllers;
 

@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "GetCount";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Current total posts: @ViewData["Posts"]</h2>
+<br />
+@Html.ActionLink("Go back", "Index")

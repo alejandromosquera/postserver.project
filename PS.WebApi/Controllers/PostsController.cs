@@ -12,7 +12,9 @@ namespace PS.WebApi.Controllers
         {
             var manager = new PostsManager();
 
-            await manager.ProcessPostAndSave(value);
+            await manager.ProcessPostAndSaveInSql(value);
+
+            //await manager.ProcessPostAndSaveInMongDb(value);
         }
     }
 }
